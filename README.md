@@ -24,7 +24,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ### installare kde
 ```
-pacman -Syu xorg plasma kde-applications
+pacman -Syu xorg xorg-xinit plasma kde-applications
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
 ```
