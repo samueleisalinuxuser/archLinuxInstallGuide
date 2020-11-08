@@ -1,8 +1,9 @@
 # archInstallGuide
 my notes to install arch linux
 
-(Installation guide (Italiano))[https://wiki.archlinux.org/index.php/Installation_guide_(Italiano)]
+[Installation guide (Italiano)](https://wiki.archlinux.org/index.php/Installation_guide_(Italiano))
 
+```
 ====
 
 wifi
@@ -69,3 +70,4 @@ aprire diskpart
 select disk 1 #selezionare il disco con linux
 
 clean
+```
