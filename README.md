@@ -1,6 +1,8 @@
 # archInstallGuide
 my notes to install arch linux
 
+[installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
+
 [Installation guide (Italiano)](https://wiki.archlinux.org/index.php/Installation_guide_(Italiano))
 
 ### wifi
@@ -39,4 +41,13 @@ systemctl enable NetworkManager.service
 open diskpart
 select disk 1 #select the disk containing the linux distribution
 clean
+```
+### bspwm
+```
+pacman -Syu bspwm sxhkd feh rofi wpa_supplicant networkmanager xorg xorg-xinit
+```
+[install polybar](https://aur.archlinux.org/packages/polybar/)
+```
+edit /etc/locale-gen
+locale-gen
 ```
