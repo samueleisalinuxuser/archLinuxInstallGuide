@@ -9,28 +9,34 @@ wpa_passphrase "ssid" >> /etc/wpa_supplicant.conf
 ...password...
 wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
 ```
-### rilevare Windows 10, leggere e scrivere gli altri dischi
+### format the efi partition to fat32
+```
+mkfs.vfat -F 32 /dev/sdb1
+```
+### detect Windows 10, read and write other disks
 ```
 pacman -Syu ntfs-3g
+sudo mount -o remount,a /dev/sda1
+sudo ntfsfix /dev/sda1
 ```
-### installare grub
+### install grub
 ```
 pacman -Syu grub efibootmgr dosfstools os-prober mtools
 mkdir /boot/EFI
 mount /dev/sda1 /boot/EFI #Mount FAT32 EFI partition
+#bootloader id is the name under which grub will appear in selections
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
-#bootloader id e' il nome con il quale apparira grub nelle selezioni
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
-### installare kde
+### install kde
 ```
 pacman -Syu xorg xorg-xinit plasma kde-applications
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
 ```
-### cancellare linux da windows
+### delete the linux distribution from windows
 ```
-aprire diskpart
-select disk 1 #selezionare il disco con linux
+open diskpart
+select disk 1 #select the disk containing the linux distribution
 clean
 ```
