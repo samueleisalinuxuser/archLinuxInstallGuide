@@ -36,12 +36,6 @@ pacman -Syu xorg xorg-xinit plasma kde-applications
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
 ```
-### delete the linux distribution from windows
-```
-open diskpart
-select disk 1 #select the disk containing the linux distribution
-clean
-```
 ### bspwm
 ```
 pacman -Syu bspwm sxhkd feh rofi wpa_supplicant networkmanager xorg xorg-xinit
@@ -50,4 +44,15 @@ pacman -Syu bspwm sxhkd feh rofi wpa_supplicant networkmanager xorg xorg-xinit
 ```
 edit /etc/locale-gen
 locale-gen
+```
+### install chrome
+[install chrome](https://aur.archlinux.org/packages/google-chrome/)
+fix `Trace/breakpoint trap (core dumped)`:
+([Solved] Chromoium crashing with "Trace/breakpoint trap (core dumped)")[https://bbs.archlinux.org/viewtopic.php?id=258632]
+`sudo chown USER:GROUP /home/USER/.config && sudo chown USER:GROUP /home/USER`
+### delete the linux distribution from windows
+```
+open diskpart
+select disk 1 #select the disk containing the linux distribution
+clean
 ```
