@@ -45,6 +45,10 @@ pacman -Syu bspwm sxhkd alacritty emacs feh rofi wpa_supplicant networkmanager x
 edit /etc/locale-gen
 locale-gen
 
+sudo systemctl enable NetworkManager
+sudo systemctl start NetworkManager
+#use nmtui to connect to wifi
+
 mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi}
 cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
 cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
