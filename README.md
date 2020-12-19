@@ -48,7 +48,7 @@ locale-gen
 ### install chrome
 [install chrome](https://aur.archlinux.org/packages/google-chrome/)
 
-([Solved] Chromoium crashing with `Trace/breakpoint trap (core dumped)`)[https://bbs.archlinux.org/viewtopic.php?id=258632]
+[[Solved] Chromoium crashing with `Trace/breakpoint trap (core dumped)`](https://bbs.archlinux.org/viewtopic.php?id=258632)
 
 `sudo chown USER:GROUP /home/USER/.config && sudo chown USER:GROUP /home/USER`
 ### delete the linux distribution from windows
