@@ -38,7 +38,7 @@ systemctl enable NetworkManager.service
 ```
 ### bspwm
 ```
-pacman -Syu bspwm sxhkd feh rofi wpa_supplicant networkmanager xorg xorg-xinit
+pacman -Syu bspwm sxhkd alacritty emacs feh rofi wpa_supplicant networkmanager xorg xorg-xinit
 ```
 [install polybar](https://aur.archlinux.org/packages/polybar/)
 ```
