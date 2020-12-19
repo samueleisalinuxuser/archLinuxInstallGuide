@@ -44,6 +44,12 @@ pacman -Syu bspwm sxhkd alacritty emacs feh rofi wpa_supplicant networkmanager x
 ```
 edit /etc/locale-gen
 locale-gen
+
+mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi}
+cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+cp /usr/local/share/doc/polybar/comnfig ~/.config/polybar/
+chmod u+x ~/.config/bspwm/bspwmrc
 ```
 ### install chrome
 [install chrome](https://aur.archlinux.org/packages/google-chrome/)
