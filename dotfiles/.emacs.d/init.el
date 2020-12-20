@@ -2,6 +2,20 @@
 ;(defvaralias 'c-basic-offset 'tab-width)
 (setq c-default-style "bsd" c-basic-offset 4)
 
+; show absolute line numbers
 (global-display-line-numbers-mode)
+
+; show column number
 (setq column-number-mode t)
 
+; turn on highlight matching brackets when cursor is on one
+(show-paren-mode 1)
+
+; highlight brackets
+(setq show-paren-style 'parenthesis)
+
+; highlight entire expression
+(setq show-paren-style 'expression)
+
+; highlight brackets if visible, else entire expression
+(setq show-paren-style 'mixed)
