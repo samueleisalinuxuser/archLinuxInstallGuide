@@ -25,3 +25,6 @@
 
 ; electric pair mode
 (electric-pair-mode 1)
+
+;; make electric-pair-mode work with ``
+(setq electric-pair-pairs '((?\` . ?\`)))
