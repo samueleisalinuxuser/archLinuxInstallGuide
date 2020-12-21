@@ -22,3 +22,6 @@
 
 ; highlight current line
 (global-hl-line-mode 1)
+
+; electric pair mode
+(electric-pair-mode 1)
