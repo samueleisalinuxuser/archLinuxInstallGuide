@@ -19,3 +19,6 @@
 
 ; highlight brackets if visible, else entire expression
 (setq show-paren-style 'mixed)
+
+; highlight current line
+(global-hl-line-mode 1)
