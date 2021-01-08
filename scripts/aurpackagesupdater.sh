@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# A small script for updating aur packages.
+# A little script for updating the packages I have installed from aur.
 
 # Google Chrome.
 git clone https://aur.archlinux.org/google-chrome.git
@@ -12,7 +12,7 @@ rm -rf google-chrome
 
 # Skype.
 git clone https://aur.archlinux.org/skypeforlinux-stable-bin.git
-cd skypeforlinux-stable-bin.git
+cd skypeforlinux-stable-bin
 makepkg -i
 cd ..
 rm -rf skypeforlinux-stable-bin
