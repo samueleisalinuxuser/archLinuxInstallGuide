@@ -27,16 +27,16 @@ rm -rf skypeforlinux-stable-bin
 
 
 # Nodejs-nativefier.
-git clone https://aur.archlinux.org/nodejs-nativefier.git
-cd nodejs-nativefier
-makepkg -i
-cd ..
-rm -rf nodejs-nativefier
+#git clone https://aur.archlinux.org/nodejs-nativefier.git
+#cd nodejs-nativefier
+#makepkg -i
+#cd ..
+#rm -rf nodejs-nativefier
 
 
 # Whatsapp.
-git clone https://aur.archlinux.org/whatsapp-nativefier.git
-cd whatsapp-nativefier
-makepkg -i
-cd ..
-rm -rf whatsapp-nativefier
+#git clone https://aur.archlinux.org/whatsapp-nativefier.git
+#cd whatsapp-nativefier
+#makepkg -i
+#cd ..
+#rm -rf whatsapp-nativefier
