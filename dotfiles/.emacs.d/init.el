@@ -35,5 +35,5 @@
 (load-theme 'dichromacy)
 ;(load-theme 'manoj-dark)
 
-; enable mouse in  no window system mode
+; enable mouse in no window system mode
 (xterm-mouse-mode)
