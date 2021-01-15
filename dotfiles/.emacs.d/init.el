@@ -1,3 +1,4 @@
+; set the default indentation to 4 spaces
 (setq tab-width 4)
 ;(defvaralias 'c-basic-offset 'tab-width)
 (setq c-default-style "bsd" c-basic-offset 4)
