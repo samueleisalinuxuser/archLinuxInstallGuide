@@ -31,5 +31,5 @@
 
 ; load theme
 ;(load-theme 'adwaita)
-(load-theme 'dichromacy)
-;(load-theme 'manoj-dark)
+;(load-theme 'dichromacy)
+(load-theme 'manoj-dark)
