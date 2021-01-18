@@ -31,9 +31,7 @@
 (setq electric-pair-pairs '((?\` . ?\`)(?\_ . ?\_)))
 
 ; load theme
-;(load-theme 'adwaita)
-(load-theme 'dichromacy)
-;(load-theme 'manoj-dark)
+(load-theme 'adwaita)
 
 ; enable mouse in no window system mode
 (xterm-mouse-mode)
