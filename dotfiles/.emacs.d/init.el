@@ -13,10 +13,10 @@
 (show-paren-mode 1)
 
 ; highlight brackets
-(setq show-paren-style 'parenthesis)
+;(setq show-paren-style 'parenthesis)
 
 ; highlight entire expression
-(setq show-paren-style 'expression)
+;(setq show-paren-style 'expression)
 
 ; highlight brackets if visible, else entire expression
 (setq show-paren-style 'mixed)
