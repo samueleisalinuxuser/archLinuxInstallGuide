@@ -35,3 +35,6 @@
 
 ; enable mouse in no window system mode
 (xterm-mouse-mode)
+
+; change cursor color
+;(set-cursor-color "yellow")
