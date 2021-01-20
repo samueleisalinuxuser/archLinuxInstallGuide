@@ -16,7 +16,7 @@
 ;(setq show-paren-style 'parenthesis)
 
 ; highlight entire expression
-(setq show-paren-style 'expression)
+;(setq show-paren-style 'expression)
 
 ; highlight brackets if visible, else entire expression
 ;(setq show-paren-style 'mixed)
