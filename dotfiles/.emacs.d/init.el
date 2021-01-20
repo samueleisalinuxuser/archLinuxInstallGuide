@@ -16,10 +16,10 @@
 ;(setq show-paren-style 'parenthesis)
 
 ; highlight entire expression
-;(setq show-paren-style 'expression)
+(setq show-paren-style 'expression)
 
 ; highlight brackets if visible, else entire expression
-(setq show-paren-style 'mixed)
+;(setq show-paren-style 'mixed)
 
 ; highlight current line
 (global-hl-line-mode 1)
