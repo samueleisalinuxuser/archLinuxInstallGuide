@@ -37,4 +37,4 @@
 (xterm-mouse-mode)
 
 ; change cursor color
-;(set-cursor-color "yellow")
+(set-cursor-color "yellow")
