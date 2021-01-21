@@ -38,3 +38,6 @@
 
 ; change cursor color
 (set-cursor-color "yellow")
+
+; change the highlight color and font color for selected text
+(set-face-attribute 'region nil :background "#ffff00" :foreground "#000000")
