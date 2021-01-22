@@ -1,4 +1,4 @@
-# archInstallGuide
+# archLinuxInstallGuide
 my notes to install arch linux
 
 [installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
