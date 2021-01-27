@@ -22,7 +22,7 @@
 ;(setq show-paren-style 'mixed)
 
 ; highlight current line
-(global-hl-line-mode 1)
+;(global-hl-line-mode 1)
 
 ; electric pair mode
 (electric-pair-mode 1)
