@@ -27,8 +27,8 @@
 ; electric pair mode
 (electric-pair-mode 1)
 
-; make electric-pair-mode work with ``, with __ and with <>
-(setq electric-pair-pairs '((?\` . ?\`)(?\_ . ?\_)(?\< . ?\>)))
+; make electric-pair-mode works with ``
+(setq electric-pair-pairs '((?\` . ?\`)))
 
 ; load theme
 (load-theme 'adwaita)
