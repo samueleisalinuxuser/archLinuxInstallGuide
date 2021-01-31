@@ -27,7 +27,7 @@
 ; electric pair mode
 (electric-pair-mode 1)
 
-; make electric-pair-mode works with ``
+; make electric-pair-mode work with ``
 (setq electric-pair-pairs '((?\` . ?\`)))
 
 ; load theme
