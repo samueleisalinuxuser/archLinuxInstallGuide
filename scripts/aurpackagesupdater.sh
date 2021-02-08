@@ -24,3 +24,4 @@ cd skypeforlinux-stable-bin
 makepkg -i
 cd ..
 rm -rf skypeforlinux-stable-bin
+
