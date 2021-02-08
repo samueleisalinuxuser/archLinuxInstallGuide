@@ -36,31 +36,6 @@ pacman -Syu xorg xorg-xinit plasma kde-applications
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
 ```
-### bspwm
-```
-pacman -Syu bspwm sxhkd alacritty emacs feh rofi wpa_supplicant networkmanager xorg xorg-xinit
-```
-[install polybar](https://aur.archlinux.org/packages/polybar/)
-```
-edit /etc/locale-gen
-locale-gen
-
-sudo systemctl enable NetworkManager
-sudo systemctl start NetworkManager
-#use nmtui to connect to wifi
-
-mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi}
-cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
-cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
-cp /usr/local/share/doc/polybar/comnfig ~/.config/polybar/
-chmod u+x ~/.config/bspwm/bspwmrc
-```
-### install chrome
-[install chrome](https://aur.archlinux.org/packages/google-chrome/)
-
-[[Solved] Chromoium crashing with `Trace/breakpoint trap (core dumped)`](https://bbs.archlinux.org/viewtopic.php?id=258632)
-
-`sudo chown USER:GROUP /home/USER/.config && sudo chown USER:GROUP /home/USER`
 ### delete the linux distribution from windows
 ```
 open diskpart
